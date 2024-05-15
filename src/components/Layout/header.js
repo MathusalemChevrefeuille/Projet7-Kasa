@@ -1,8 +1,9 @@
-import "./header.css"
+import "./header.css";
 import Logo from '../../assets/images/LOGOH.svg';
-import {Link, useLocation} from "react-router-dom";
+import {Link} from "react-router-dom";
+import { useLocation } from 'react-router-dom';
 
-export default function header(){
+export default function Header(){
   let location = useLocation().pathname
     return(
         <header>
