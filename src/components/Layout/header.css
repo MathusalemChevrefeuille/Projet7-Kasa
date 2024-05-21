@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin-top: 45px;
   margin-left: 100px;
   margin-right: 100px;
@@ -24,6 +24,23 @@ header nav a {
 }
 header nav .underline {
   text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  header {
+    margin: 25px 15px 25px 15px;
+  }
+  header img {
+    height: 46.88px;
+    width: 145px;
+  }
+  header nav {
+    gap: 25px;
+  }
+  header nav a {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

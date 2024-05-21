@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Accueil from './Pages/accueil'
-import Apropos from './Pages/apropos'
+import Accueil from './Pages/Home/accueil'
+import Apropos from './Pages/About/apropos'
 import Header from './Layout/header'
 import Footer from './Layout/footer'
-import Logement from './Pages/logement'
-import Erreur from './Pages/erreur'
+import Logement from './Pages/Housing/logement'
+import Erreur from './Pages/Error/erreur'
 import "../assets/styles/style.css"
 
 function App (){
@@ -15,7 +15,7 @@ function App (){
           <Routes>
               <Route path="/" element={<Accueil />} />
               <Route path="/apropos" element={<Apropos />} />
-              <Route path="/logement" element={<Logement />} />
+              <Route path="/logement/:houseid" element={<Logement />} />
               <Route path="*" element={<Erreur />} />
           </Routes>
         <Footer />

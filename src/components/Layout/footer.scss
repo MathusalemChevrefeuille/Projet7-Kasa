@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 50px;
+    img{
+        height: 39.44px;
+        width: 122px;
+    }
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        p{
+            font-size: 24px;
+            font-weight: 300;
+            color: white;
+        }
+    }
+}
+
+@media (max-width : 1024px){
+    footer{
+        gap: 10px;
+        .footertext{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-bottom: 50px;
+            p{
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+    }
+}
