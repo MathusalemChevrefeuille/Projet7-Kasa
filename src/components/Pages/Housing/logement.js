@@ -4,6 +4,7 @@ import Erreur from '../Error/erreur'
 import "./logement.css"
 import Tags from "../../Part/tags"
 import Rating from "../../Part/rating"
+import Dropdown from "../../Part/dropdown"
 
 const data = require("../../../data/logements.json")
 
@@ -33,6 +34,10 @@ function Logement (){
                 </div>
                 <Rating rating={house.rating}/>
             </div>
+        </div>
+        <div className="dropdowncontainerhousing">
+                <Dropdown tiltle={"Description"} content={[house.description]}/>
+                <Dropdown tiltle={"Equipements"} content={house.equipments}/>
         </div>
     </main>
 )

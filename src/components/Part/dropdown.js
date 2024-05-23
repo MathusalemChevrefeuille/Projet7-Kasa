@@ -10,7 +10,7 @@ const Dropdown = ({tiltle, content}) => {
     }
 
     return(
-        <div className="dropdownconatiner">
+        <div className="dropdowncontainer">
             <div onClick={() => {
                 Drop()
             }}>

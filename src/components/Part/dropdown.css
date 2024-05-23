@@ -1,4 +1,4 @@
-.dropdownconatiner .dropdowntiltle {
+.dropdowncontainer .dropdowntiltle {
   display: flex;
   align-items: center;
   position: relative;
@@ -7,27 +7,27 @@
   border-radius: 10px;
   z-index: 1;
 }
-.dropdownconatiner .dropdowntiltle h2 {
+.dropdowncontainer .dropdowntiltle h2 {
   display: flex;
   color: white;
   font-weight: 500;
   padding: 10px;
   margin: 0;
 }
-.dropdownconatiner .dropdowntiltle img {
+.dropdowncontainer .dropdowntiltle img {
   position: absolute;
   right: 1em;
   color: white;
 }
-.dropdownconatiner .dropdowntiltle .arrowdown {
+.dropdowncontainer .dropdowntiltle .arrowdown {
   transition: all 0.5s;
   transform: rotate(0deg);
 }
-.dropdownconatiner .dropdowntiltle .arrowup {
+.dropdowncontainer .dropdowntiltle .arrowup {
   transition: all 0.5s;
   transform: rotate(180deg);
 }
-.dropdownconatiner .dropdownmenucontent {
+.dropdowncontainer .dropdownmenucontent {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: black;
@@ -37,10 +37,12 @@
   overflow: hidden;
   transition: max-height 1s;
 }
-.dropdownconatiner .dropdownmenucontent p {
+.dropdowncontainer .dropdownmenucontent p {
   padding: 10px 15px 10px 15px;
+  margin: 0;
+  box-sizing: border-box;
 }
-.dropdownconatiner .dropdownmenucontent.open {
+.dropdowncontainer .dropdownmenucontent.open {
   max-height: 300px;
 }
 

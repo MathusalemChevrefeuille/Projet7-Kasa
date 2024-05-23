@@ -28,3 +28,22 @@
          user-select: none;
     }
 }
+
+@media (max-width : 1024px){
+    .container_gallery{
+        .photo{
+            height: 255px;
+        }
+        .left_arrow{
+            top: 45%;
+            height: 24px;
+        }
+        .right_arrow{
+            top: 45%;
+            height: 24px;
+        }
+        p{
+            display: none;
+        }
+    }
+}

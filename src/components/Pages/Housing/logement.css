@@ -5,7 +5,7 @@
 .top_part .left_part {
   width: 100%;
 }
-.top_part .left_part .h1 {
+.top_part .left_part h1 {
   color: #FF6060;
   margin-bottom: 0;
 }
@@ -31,6 +31,75 @@
   border-radius: 100px;
   width: 64px;
   height: 64px;
+}
+.top_part .right_part .starcontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+
+.dropdowncontainerhousing {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 50px;
+}
+.dropdowncontainerhousing .dropdowncontainer {
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .top_part {
+    display: flex;
+    flex-direction: column;
+  }
+  .top_part .right_part {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .top_part .right_part .host {
+    margin: 0;
+  }
+  .top_part .right_part .host .host_name {
+    font-size: 12px;
+    margin: 0 10px 0 0;
+  }
+  .top_part .right_part .host .host_picture {
+    width: 32px;
+    height: 32px;
+  }
+  .top_part .right_part .starcontainer {
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 25px;
+  }
+  .top_part .right_part .starcontainer img {
+    height: 18px;
+    width: 18px;
+  }
+  .top_part .left_part h1 {
+    font-size: 18px;
+  }
+  .top_part .left_part .location {
+    font-size: 14px;
+  }
+  .top_part .left_part .tags p {
+    font-size: 10px;
+  }
+  .dropdowncontainerhousing {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dropdowncontainerhousing .dropdowncontainer {
+    width: 100%;
+  }
+  .dropdowncontainerhousing .dropdowncontainer .dropdowntiltle h2 {
+    font-size: 13px;
+  }
+  .dropdowncontainerhousing .dropdowncontainer .dropdowntiltle img {
+    width: 16px;
+  }
 }
 
 /*# sourceMappingURL=logement.css.map */

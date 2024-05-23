@@ -1,4 +1,4 @@
-.dropdownconatiner{
+.dropdowncontainer{
   .dropdowntiltle{
     display: flex;
     align-items: center;
@@ -39,6 +39,8 @@
         transition: max-height 1s;
         p{
             padding: 10px 15px 10px 15px;
+            margin: 0;
+            box-sizing: border-box;
         }
   }
   .dropdownmenucontent.open{
