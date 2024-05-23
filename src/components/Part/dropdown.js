@@ -20,7 +20,7 @@ const Dropdown = ({tiltle, content}) => {
                 </div>
             </div>
                 <div className={`dropdownmenucontent ${isOpen ? 'open' : ''}`} >
-                    <p>{content}</p>
+                    {content.map(string =><p>{string}</p>)}
                 </div>
         </div>
     )
