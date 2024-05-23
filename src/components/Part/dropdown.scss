@@ -20,11 +20,11 @@
         color: white;
     }
     .arrowdown{
-        transition: all 0.5s;
+        transition: all 1s;
         transform: rotate(0deg);
     }
     .arrowup{
-        transition: all 0.5s;
+        transition: all 1s;
         transform: rotate(180deg);
     }
   }
@@ -39,12 +39,12 @@
         transition: max-height 1s;
         p{
             padding: 10px 15px 10px 15px;
-            margin: 0;
+            margin: 15px;
             box-sizing: border-box;
         }
   }
   .dropdownmenucontent.open{
-    max-height: 300px;
+    max-height: 1000px;
     
 }
 }

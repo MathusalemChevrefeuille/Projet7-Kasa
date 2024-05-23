@@ -20,11 +20,11 @@
   color: white;
 }
 .dropdowncontainer .dropdowntiltle .arrowdown {
-  transition: all 0.5s;
+  transition: all 1s;
   transform: rotate(0deg);
 }
 .dropdowncontainer .dropdowntiltle .arrowup {
-  transition: all 0.5s;
+  transition: all 1s;
   transform: rotate(180deg);
 }
 .dropdowncontainer .dropdownmenucontent {
@@ -39,11 +39,11 @@
 }
 .dropdowncontainer .dropdownmenucontent p {
   padding: 10px 15px 10px 15px;
-  margin: 0;
+  margin: 15px;
   box-sizing: border-box;
 }
 .dropdowncontainer .dropdownmenucontent.open {
-  max-height: 300px;
+  max-height: 1000px;
 }
 
 /*# sourceMappingURL=dropdown.css.map */
