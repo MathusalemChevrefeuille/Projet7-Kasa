@@ -20,11 +20,11 @@
         color: white;
     }
     .arrowdown{
-        transition: all 1s;
+        transition: all 0.3s;
         transform: rotate(0deg);
     }
     .arrowup{
-        transition: all 1s;
+        transition: all 0.3s;
         transform: rotate(180deg);
     }
   }

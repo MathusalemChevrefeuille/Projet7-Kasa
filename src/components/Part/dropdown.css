@@ -20,11 +20,11 @@
   color: white;
 }
 .dropdowncontainer .dropdowntiltle .arrowdown {
-  transition: all 1s;
+  transition: all 0.3s;
   transform: rotate(0deg);
 }
 .dropdowncontainer .dropdowntiltle .arrowup {
-  transition: all 1s;
+  transition: all 0.3s;
   transform: rotate(180deg);
 }
 .dropdowncontainer .dropdownmenucontent {
