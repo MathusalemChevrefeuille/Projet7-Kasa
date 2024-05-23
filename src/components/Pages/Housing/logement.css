@@ -1,0 +1,36 @@
+.top_part {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.top_part .left_part {
+  width: 100%;
+}
+.top_part .left_part .h1 {
+  color: #FF6060;
+  margin-bottom: 0;
+}
+.top_part .left_part .location {
+  color: black;
+  margin: 0;
+}
+.top_part .right_part {
+  width: 100%;
+}
+.top_part .right_part .host {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.top_part .right_part .host .host_name {
+  color: #FF6060;
+  text-align: right;
+  margin-right: 10px;
+  width: 75px;
+}
+.top_part .right_part .host .host_picture {
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+}
+
+/*# sourceMappingURL=logement.css.map */
